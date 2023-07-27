@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
+import ReactGA from 'react-ga';
 
 
 export default function TextForm(props) {
 
     const handleUpClick = () => {
+        ReactGA.event({'category':'click', 'action':'submit', 'label':'Button Clicked'});
         let newText = text.toUpperCase();
         setText(newText);
     }

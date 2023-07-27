@@ -2,6 +2,11 @@ import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import { useState } from 'react';
+import ReactGA from 'react-ga';
+
+
+ReactGA.initialize('UA-279637435-1');
+
 
 function App() {
   const [mode,setMode] = useState('light');

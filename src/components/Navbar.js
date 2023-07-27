@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import ReactGA from 'react-ga';
 
 
 Navbar.propTypes = {

@@ -25,7 +25,7 @@ function App() {
       <Navbar title='Text Player' mode={mode} handelMode={handelMode} />
       {/* <Navbar /> */}
       <div className='container my-3'>
-        <TextForm heading='Enter The Text' mode={mode} />
+        <TextForm name='Name' mode={mode} contact='Contact Number' address='Address' comment='Comment'/>
       </div>
     </>
   );
